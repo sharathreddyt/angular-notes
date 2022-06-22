@@ -19,3 +19,18 @@ Structural directives, modify the structure of the html. Like ngFor, ngIf,ngSwit
 all custom angular components are component directives.
 
 
+## Pipes
+
+Pipe takes an input and returns an output based on the output of transform function evaluation.
+
+we can send additional inputs to pipes like below 
+
+```JS
+{ "test" | length } // returns length of the string as 4
+{ "test" | length: "second" } // returns length of the string after concating with second as 10
+
+```
+
+
+
+
